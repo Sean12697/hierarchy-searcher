@@ -1,0 +1,848 @@
+Entity
+Coin -> Entity
+Flag -> Entity
+Light bulb -> Entity
+Toy -> Entity
+Doll -> Toy -> Entity
+Balloon -> Toy -> Entity
+Dice -> Toy -> Entity
+Flying disc -> Toy -> Entity
+Kite -> Toy -> Entity
+Teddy bear -> Toy -> Entity
+Home appliance -> Entity
+Washing machine -> Home appliance -> Entity
+Toaster -> Home appliance -> Entity
+Oven -> Home appliance -> Entity
+Blender -> Home appliance -> Entity
+Gas stove -> Home appliance -> Entity
+Mechanical fan -> Home appliance -> Entity
+Heater -> Home appliance -> Entity
+Kettle -> Home appliance -> Entity
+Hair dryer -> Home appliance -> Entity
+Refrigerator -> Home appliance -> Entity
+Wood-burning stove -> Home appliance -> Entity
+Humidifier -> Home appliance -> Entity
+Mixer -> Home appliance -> Entity
+Coffeemaker -> Home appliance -> Entity
+Microwave oven -> Home appliance -> Entity
+Dishwasher -> Home appliance -> Entity
+Sewing machine -> Home appliance -> Entity
+Hand dryer -> Home appliance -> Entity
+Ceiling fan -> Home appliance -> Entity
+Plumbing fixture -> Entity
+Sink -> Plumbing fixture -> Entity
+Bidet -> Plumbing fixture -> Entity
+Shower -> Plumbing fixture -> Entity
+Tap -> Plumbing fixture -> Entity
+Bathtub -> Plumbing fixture -> Entity
+Toilet -> Plumbing fixture -> Entity
+Office supplies -> Entity
+Scissors -> Office supplies -> Entity
+Poster -> Office supplies -> Entity
+Calculator -> Office supplies -> Entity
+Box -> Office supplies -> Entity
+Stapler -> Office supplies -> Entity
+Whiteboard -> Office supplies -> Entity
+Pencil sharpener -> Office supplies -> Entity
+Eraser -> Office supplies -> Entity
+Fax -> Office supplies -> Entity
+Adhesive tape -> Office supplies -> Entity
+Ring binder -> Office supplies -> Entity
+Pencil case -> Office supplies -> Entity
+Plastic bag -> Office supplies -> Entity
+Paper cutter -> Office supplies -> Entity
+Toilet paper -> Office supplies -> Entity
+Envelope -> Office supplies -> Entity
+Pen -> Office supplies -> Entity
+Paper towel -> Entity
+Pillow -> Entity
+Kitchenware -> Entity
+Kitchen utensil -> Kitchenware -> Entity
+Chopsticks -> Kitchen utensil -> Kitchenware -> Entity
+Ladle -> Kitchen utensil -> Kitchenware -> Entity
+Spatula -> Kitchen utensil -> Kitchenware -> Entity
+Can opener -> Kitchen utensil -> Kitchenware -> Entity
+Cutting board -> Kitchen utensil -> Kitchenware -> Entity
+Whisk -> Kitchen utensil -> Kitchenware -> Entity
+Drinking straw -> Kitchen utensil -> Kitchenware -> Entity
+Knife -> Kitchen utensil -> Kitchenware -> Entity
+Bottle opener -> Kitchen utensil -> Kitchenware -> Entity
+Measuring cup -> Kitchen utensil -> Kitchenware -> Entity
+Pizza cutter -> Kitchen utensil -> Kitchenware -> Entity
+Spoon -> Kitchen utensil -> Kitchenware -> Entity
+Fork -> Kitchen utensil -> Kitchenware -> Entity
+Tableware -> Kitchenware -> Entity
+Chopsticks -> Tableware -> Kitchenware -> Entity
+Teapot -> Tableware -> Kitchenware -> Entity
+Mug -> Tableware -> Kitchenware -> Entity
+Coffee cup -> Tableware -> Kitchenware -> Entity
+Salt and pepper shakers -> Tableware -> Kitchenware -> Entity
+Mixing bowl -> Tableware -> Kitchenware -> Entity
+Saucer -> Tableware -> Kitchenware -> Entity
+Cocktail shaker -> Tableware -> Kitchenware -> Entity
+Bottle -> Tableware -> Kitchenware -> Entity
+Bowl -> Tableware -> Kitchenware -> Entity
+Plate -> Tableware -> Kitchenware -> Entity
+Pitcher (Container) -> Tableware -> Kitchenware -> Entity
+Kitchen knife -> Tableware -> Kitchenware -> Entity
+Jug -> Tableware -> Kitchenware -> Entity
+Platter -> Tableware -> Kitchenware -> Entity
+Wine glass -> Tableware -> Kitchenware -> Entity
+Spoon -> Tableware -> Kitchenware -> Entity
+Fork -> Tableware -> Kitchenware -> Entity
+Serving tray -> Tableware -> Kitchenware -> Entity
+Cake stand -> Tableware -> Kitchenware -> Entity
+Frying pan -> Kitchenware -> Entity
+Wok -> Kitchenware -> Entity
+Spice rack -> Kitchenware -> Entity
+Kitchen appliance -> Kitchenware -> Entity
+Oven -> Kitchen appliance -> Kitchenware -> Entity
+Blender -> Kitchen appliance -> Kitchenware -> Entity
+Slow cooker -> Kitchen appliance -> Kitchenware -> Entity
+Food processor -> Kitchen appliance -> Kitchenware -> Entity
+Refrigerator -> Kitchen appliance -> Kitchenware -> Entity
+Waffle iron -> Kitchen appliance -> Kitchenware -> Entity
+Mixer -> Kitchen appliance -> Kitchenware -> Entity
+Coffeemaker -> Kitchen appliance -> Kitchenware -> Entity
+Microwave oven -> Kitchen appliance -> Kitchenware -> Entity
+Pressure cooker -> Kitchen appliance -> Kitchenware -> Entity
+Dishwasher -> Kitchen appliance -> Kitchenware -> Entity
+Fireplace -> Entity
+Countertop -> Entity
+Book -> Entity
+Furniture -> Entity
+Chair -> Furniture -> Entity
+Cabinetry -> Furniture -> Entity
+Desk -> Furniture -> Entity
+Wine rack -> Furniture -> Entity
+Couch -> Furniture -> Entity
+Sofa bed -> Couch -> Furniture -> Entity
+Loveseat -> Couch -> Furniture -> Entity
+Wardrobe -> Furniture -> Entity
+Nightstand -> Furniture -> Entity
+Bookcase -> Furniture -> Entity
+Bed -> Furniture -> Entity
+Infant bed -> Bed -> Furniture -> Entity
+Studio couch -> Bed -> Furniture -> Entity
+Filing cabinet -> Furniture -> Entity
+Table -> Furniture -> Entity
+Coffee table -> Table -> Furniture -> Entity
+Kitchen & dining room table -> Table -> Furniture -> Entity
+Chest of drawers -> Furniture -> Entity
+Cupboard -> Furniture -> Entity
+Bench -> Furniture -> Entity
+Drawer -> Furniture -> Entity
+Stool -> Furniture -> Entity
+Shelf -> Furniture -> Entity
+Wall clock -> Furniture -> Entity
+Bathroom cabinet -> Furniture -> Entity
+Closet -> Furniture -> Entity
+Dog bed -> Entity
+Cat furniture -> Entity
+Lantern -> Entity
+Clock -> Entity
+Alarm clock -> Clock -> Entity
+Digital clock -> Clock -> Entity
+Wall clock -> Clock -> Entity
+Vase -> Entity
+Window blind -> Entity
+Curtain -> Entity
+Mirror -> Entity
+Sculpture -> Entity
+Snowman -> Sculpture -> Entity
+Bust -> Sculpture -> Entity
+Bronze sculpture -> Sculpture -> Entity
+Picture frame -> Entity
+Candle -> Entity
+Lamp -> Entity
+Bathroom accessory -> Entity
+Towel -> Bathroom accessory -> Entity
+Toilet paper -> Bathroom accessory -> Entity
+Soap dispenser -> Bathroom accessory -> Entity
+Facial tissue holder -> Bathroom accessory -> Entity
+Beehive -> Entity
+Tent -> Entity
+Parking meter -> Entity
+Traffic light -> Entity
+Billboard -> Entity
+Traffic sign -> Entity
+Stop sign -> Traffic sign -> Entity
+Fire hydrant -> Entity
+Fountain -> Entity
+Street light -> Entity
+Jacuzzi -> Entity
+Building -> Entity
+Medical equipment -> Building -> Entity
+Syringe -> Medical equipment -> Building -> Entity
+Stretcher -> Medical equipment -> Building -> Entity
+Stethoscope -> Medical equipment -> Building -> Entity
+Band-aid -> Medical equipment -> Building -> Entity
+Musical instrument -> Building -> Entity
+Organ (Musical Instrument) -> Musical instrument -> Building -> Entity
+Banjo -> Musical instrument -> Building -> Entity
+Cello -> Musical instrument -> Building -> Entity
+Drum -> Musical instrument -> Building -> Entity
+French horn -> Musical instrument -> Building -> Entity
+Guitar -> Musical instrument -> Building -> Entity
+Harp -> Musical instrument -> Building -> Entity
+Harpsichord -> Musical instrument -> Building -> Entity
+Harmonica -> Musical instrument -> Building -> Entity
+Musical keyboard -> Musical instrument -> Building -> Entity
+Oboe -> Musical instrument -> Building -> Entity
+Piano -> Musical instrument -> Building -> Entity
+Saxophone -> Musical instrument -> Building -> Entity
+Trombone -> Musical instrument -> Building -> Entity
+Trumpet -> Musical instrument -> Building -> Entity
+Violin -> Musical instrument -> Building -> Entity
+Chime -> Musical instrument -> Building -> Entity
+Flute -> Musical instrument -> Building -> Entity
+Accordion -> Musical instrument -> Building -> Entity
+Maracas -> Musical instrument -> Building -> Entity
+Sports equipment -> Building -> Entity
+Paddle -> Sports equipment -> Building -> Entity
+Ball -> Sports equipment -> Building -> Entity
+Football -> Ball -> Sports equipment -> Building -> Entity
+Cricket ball -> Ball -> Sports equipment -> Building -> Entity
+Volleyball (Ball) -> Ball -> Sports equipment -> Building -> Entity
+Tennis ball -> Ball -> Sports equipment -> Building -> Entity
+Rugby ball -> Ball -> Sports equipment -> Building -> Entity
+Bicycle -> Sports equipment -> Building -> Entity
+Bicycle wheel -> Bicycle -> Sports equipment -> Building -> Entity
+Surfboard -> Sports equipment -> Building -> Entity
+Bow and arrow -> Sports equipment -> Building -> Entity
+Hiking equipment -> Sports equipment -> Building -> Entity
+Roller skates -> Sports equipment -> Building -> Entity
+Flying disc -> Sports equipment -> Building -> Entity
+Baseball bat -> Sports equipment -> Building -> Entity
+Baseball glove -> Sports equipment -> Building -> Entity
+Punching bag -> Sports equipment -> Building -> Entity
+Golf ball -> Sports equipment -> Building -> Entity
+Personal flotation device -> Sports equipment -> Building -> Entity
+Scoreboard -> Sports equipment -> Building -> Entity
+Snowboard -> Sports equipment -> Building -> Entity
+Skateboard -> Sports equipment -> Building -> Entity
+Ski -> Sports equipment -> Building -> Entity
+Bowling equipment -> Sports equipment -> Building -> Entity
+Dumbbell -> Sports equipment -> Building -> Entity
+Stationary bicycle -> Sports equipment -> Building -> Entity
+Treadmill -> Sports equipment -> Building -> Entity
+Training bench -> Sports equipment -> Building -> Entity
+Indoor rower -> Sports equipment -> Building -> Entity
+Horizontal bar -> Sports equipment -> Building -> Entity
+Parachute -> Sports equipment -> Building -> Entity
+Racket -> Sports equipment -> Building -> Entity
+Tennis racket -> Racket -> Sports equipment -> Building -> Entity
+Table tennis racket -> Racket -> Sports equipment -> Building -> Entity
+Balance beam -> Sports equipment -> Building -> Entity
+Helmet -> Sports equipment -> Building -> Entity
+Bicycle helmet -> Helmet -> Sports equipment -> Building -> Entity
+Football helmet -> Helmet -> Sports equipment -> Building -> Entity
+Billiard table -> Sports equipment -> Building -> Entity
+Tool -> Building -> Entity
+Container -> Tool -> Building -> Entity
+Tin can -> Container -> Tool -> Building -> Entity
+Barrel -> Container -> Tool -> Building -> Entity
+Bottle -> Container -> Tool -> Building -> Entity
+Picnic basket -> Container -> Tool -> Building -> Entity
+Jug -> Container -> Tool -> Building -> Entity
+Waste container -> Container -> Tool -> Building -> Entity
+Beaker -> Container -> Tool -> Building -> Entity
+Flowerpot -> Container -> Tool -> Building -> Entity
+Ladder -> Tool -> Building -> Entity
+Toothbrush -> Tool -> Building -> Entity
+Screwdriver -> Tool -> Building -> Entity
+Drill (Tool) -> Tool -> Building -> Entity
+Chainsaw -> Tool -> Building -> Entity
+Wrench -> Tool -> Building -> Entity
+Flashlight -> Tool -> Building -> Entity
+Scissors -> Tool -> Building -> Entity
+Ratchet (Device) -> Tool -> Building -> Entity
+Kitchen utensil -> Tool -> Building -> Entity
+Chopsticks -> Kitchen utensil -> Tool -> Building -> Entity
+Ladle -> Kitchen utensil -> Tool -> Building -> Entity
+Spatula -> Kitchen utensil -> Tool -> Building -> Entity
+Can opener -> Kitchen utensil -> Tool -> Building -> Entity
+Cutting board -> Kitchen utensil -> Tool -> Building -> Entity
+Whisk -> Kitchen utensil -> Tool -> Building -> Entity
+Drinking straw -> Kitchen utensil -> Tool -> Building -> Entity
+Knife -> Kitchen utensil -> Tool -> Building -> Entity
+Bottle opener -> Kitchen utensil -> Tool -> Building -> Entity
+Measuring cup -> Kitchen utensil -> Tool -> Building -> Entity
+Pizza cutter -> Kitchen utensil -> Tool -> Building -> Entity
+Spoon -> Kitchen utensil -> Tool -> Building -> Entity
+Fork -> Kitchen utensil -> Tool -> Building -> Entity
+Hammer -> Tool -> Building -> Entity
+Scale -> Tool -> Building -> Entity
+Snowplow -> Tool -> Building -> Entity
+Nail (Construction) -> Tool -> Building -> Entity
+Tripod -> Tool -> Building -> Entity
+Torch -> Tool -> Building -> Entity
+Chisel -> Tool -> Building -> Entity
+Axe -> Tool -> Building -> Entity
+Camera -> Tool -> Building -> Entity
+Grinder -> Tool -> Building -> Entity
+Ruler -> Tool -> Building -> Entity
+Binoculars -> Tool -> Building -> Entity
+Weapon -> Building -> Entity
+Bow and arrow -> Weapon -> Building -> Entity
+Cannon -> Weapon -> Building -> Entity
+Dagger -> Weapon -> Building -> Entity
+Knife -> Weapon -> Building -> Entity
+Rifle -> Weapon -> Building -> Entity
+Shotgun -> Weapon -> Building -> Entity
+Tank -> Weapon -> Building -> Entity
+Axe -> Weapon -> Building -> Entity
+Handgun -> Weapon -> Building -> Entity
+Sword -> Weapon -> Building -> Entity
+Missile -> Weapon -> Building -> Entity
+Bomb -> Weapon -> Building -> Entity
+Cassette deck -> Building -> Entity
+Headphones -> Building -> Entity
+Laptop -> Building -> Entity
+Computer keyboard -> Building -> Entity
+Printer -> Building -> Entity
+Computer mouse -> Building -> Entity
+Computer monitor -> Building -> Entity
+Power plugs and sockets -> Building -> Entity
+Light switch -> Building -> Entity
+Musical keyboard -> Building -> Entity
+Television -> Building -> Entity
+Telephone -> Building -> Entity
+Mobile phone -> Telephone -> Building -> Entity
+Corded phone -> Telephone -> Building -> Entity
+Tablet computer -> Building -> Entity
+Microphone -> Building -> Entity
+Ipod -> Building -> Entity
+Remote control -> Building -> Entity
+Tree house -> Building -> Entity
+Lighthouse -> Building -> Entity
+Skyscraper -> Building -> Entity
+Castle -> Building -> Entity
+Tower -> Building -> Entity
+House -> Building -> Entity
+Office building -> Building -> Entity
+Convenience store -> Building -> Entity
+Swimming pool -> Entity
+Person -> Entity
+Human body -> Person -> Entity
+Human eye -> Human body -> Person -> Entity
+Skull -> Human body -> Person -> Entity
+Human head -> Human body -> Person -> Entity
+Human face -> Human body -> Person -> Entity
+Human mouth -> Human body -> Person -> Entity
+Human ear -> Human body -> Person -> Entity
+Human nose -> Human body -> Person -> Entity
+Human hair -> Human body -> Person -> Entity
+Human hand -> Human body -> Person -> Entity
+Human foot -> Human body -> Person -> Entity
+Human arm -> Human body -> Person -> Entity
+Human leg -> Human body -> Person -> Entity
+Human beard -> Human body -> Person -> Entity
+Man -> Person -> Entity
+Woman -> Person -> Entity
+Boy -> Person -> Entity
+Girl -> Person -> Entity
+Food -> Entity
+Fast food -> Food -> Entity
+Hot dog -> Fast food -> Food -> Entity
+French fries -> Fast food -> Food -> Entity
+Bearz -> Food -> Entity
+Pancake -> Food -> Entity
+Burrito -> Food -> Entity
+Snack -> Food -> Entity
+Pretzel -> Snack -> Food -> Entity
+Popcorn -> Snack -> Food -> Entity
+Cookie -> Snack -> Food -> Entity
+Dessert -> Food -> Entity
+Muffin -> Dessert -> Food -> Entity
+Cookie -> Dessert -> Food -> Entity
+Ice cream -> Dessert -> Food -> Entity
+Cake -> Dessert -> Food -> Entity
+Candy -> Dessert -> Food -> Entity
+Guacamole -> Food -> Entity
+Fruit -> Food -> Entity
+Apple -> Fruit -> Food -> Entity
+Grape -> Fruit -> Food -> Entity
+Common fig -> Fruit -> Food -> Entity
+Pear -> Fruit -> Food -> Entity
+Strawberry -> Fruit -> Food -> Entity
+Tomato -> Fruit -> Food -> Entity
+Lemon -> Fruit -> Food -> Entity
+Banana -> Fruit -> Food -> Entity
+Orange -> Fruit -> Food -> Entity
+Peach -> Fruit -> Food -> Entity
+Mango -> Fruit -> Food -> Entity
+Pineapple -> Fruit -> Food -> Entity
+Grapefruit -> Fruit -> Food -> Entity
+Pomegranate -> Fruit -> Food -> Entity
+Watermelon -> Fruit -> Food -> Entity
+Cantaloupe -> Fruit -> Food -> Entity
+Egg (Food) -> Food -> Entity
+Baked goods -> Food -> Entity
+Pretzel -> Baked goods -> Food -> Entity
+Bagel -> Baked goods -> Food -> Entity
+Muffin -> Baked goods -> Food -> Entity
+Cookie -> Baked goods -> Food -> Entity
+Bread -> Baked goods -> Food -> Entity
+Pastry -> Baked goods -> Food -> Entity
+Doughnut -> Pastry -> Baked goods -> Food -> Entity
+Croissant -> Pastry -> Baked goods -> Food -> Entity
+Tart -> Pastry -> Baked goods -> Food -> Entity
+Mushroom -> Food -> Entity
+Pasta -> Food -> Entity
+Pizza -> Food -> Entity
+Seafood -> Food -> Entity
+Squid -> Seafood -> Food -> Entity
+Shellfish -> Seafood -> Food -> Entity
+Oyster -> Shellfish -> Seafood -> Food -> Entity
+Lobster -> Shellfish -> Seafood -> Food -> Entity
+Shrimp -> Shellfish -> Seafood -> Food -> Entity
+Crab -> Shellfish -> Seafood -> Food -> Entity
+Taco -> Food -> Entity
+Cooking spray -> Food -> Entity
+Vegetable -> Food -> Entity
+Cucumber -> Vegetable -> Food -> Entity
+Radish -> Vegetable -> Food -> Entity
+Artichoke -> Vegetable -> Food -> Entity
+Potato -> Vegetable -> Food -> Entity
+Tomato -> Vegetable -> Food -> Entity
+Garden Asparagus -> Vegetable -> Food -> Entity
+Squash (Plant) -> Vegetable -> Food -> Entity
+Pumpkin -> Squash (Plant) -> Vegetable -> Food -> Entity
+Zucchini -> Squash (Plant) -> Vegetable -> Food -> Entity
+Cabbage -> Vegetable -> Food -> Entity
+Carrot -> Vegetable -> Food -> Entity
+Salad -> Vegetable -> Food -> Entity
+Broccoli -> Vegetable -> Food -> Entity
+Bell pepper -> Vegetable -> Food -> Entity
+Winter melon -> Vegetable -> Food -> Entity
+Honeycomb -> Food -> Entity
+Sandwich -> Food -> Entity
+Hamburger -> Sandwich -> Food -> Entity
+Submarine sandwich -> Sandwich -> Food -> Entity
+Dairy Product -> Food -> Entity
+Cheese -> Dairy Product -> Food -> Entity
+Milk -> Dairy Product -> Food -> Entity
+Sushi -> Food -> Entity
+Plant -> Entity
+Houseplant -> Plant -> Entity
+Tree -> Plant -> Entity
+Christmas tree -> Tree -> Plant -> Entity
+Palm tree -> Tree -> Plant -> Entity
+Maple -> Tree -> Plant -> Entity
+Willow -> Tree -> Plant -> Entity
+Flower -> Plant -> Entity
+Lavender (Plant) -> Flower -> Plant -> Entity
+Rose -> Flower -> Plant -> Entity
+Common sunflower -> Flower -> Plant -> Entity
+Lily -> Flower -> Plant -> Entity
+Vehicle -> Entity
+Land vehicle -> Vehicle -> Entity
+Auto part -> Land vehicle -> Vehicle -> Entity
+Vehicle registration plate -> Auto part -> Land vehicle -> Vehicle -> Entity
+Wheel -> Auto part -> Land vehicle -> Vehicle -> Entity
+Seat belt -> Auto part -> Land vehicle -> Vehicle -> Entity
+Tire -> Auto part -> Land vehicle -> Vehicle -> Entity
+Ambulance -> Land vehicle -> Vehicle -> Entity
+Cart -> Land vehicle -> Vehicle -> Entity
+Bicycle -> Land vehicle -> Vehicle -> Entity
+Bicycle wheel -> Bicycle -> Land vehicle -> Vehicle -> Entity
+Bus -> Land vehicle -> Vehicle -> Entity
+Snowmobile -> Land vehicle -> Vehicle -> Entity
+Golf cart -> Land vehicle -> Vehicle -> Entity
+Motorcycle -> Land vehicle -> Vehicle -> Entity
+Segway -> Land vehicle -> Vehicle -> Entity
+Tank -> Land vehicle -> Vehicle -> Entity
+Train -> Land vehicle -> Vehicle -> Entity
+Truck -> Land vehicle -> Vehicle -> Entity
+Unicycle -> Land vehicle -> Vehicle -> Entity
+Car -> Land vehicle -> Vehicle -> Entity
+Limousine -> Car -> Land vehicle -> Vehicle -> Entity
+Van -> Car -> Land vehicle -> Vehicle -> Entity
+Taxi -> Land vehicle -> Vehicle -> Entity
+Wheelchair -> Land vehicle -> Vehicle -> Entity
+Watercraft -> Vehicle -> Entity
+Boat -> Watercraft -> Vehicle -> Entity
+Barge -> Boat -> Watercraft -> Vehicle -> Entity
+Gondola -> Boat -> Watercraft -> Vehicle -> Entity
+Canoe -> Boat -> Watercraft -> Vehicle -> Entity
+Jet ski -> Watercraft -> Vehicle -> Entity
+Submarine -> Watercraft -> Vehicle -> Entity
+Aircraft -> Vehicle -> Entity
+Helicopter -> Aircraft -> Vehicle -> Entity
+Airplane -> Aircraft -> Vehicle -> Entity
+Rocket -> Aircraft -> Vehicle -> Entity
+Clothing -> Entity
+Shorts -> Clothing -> Entity
+Dress -> Clothing -> Entity
+Swimwear -> Clothing -> Entity
+Brassiere -> Clothing -> Entity
+Tiara -> Clothing -> Entity
+Shirt -> Clothing -> Entity
+Coat -> Clothing -> Entity
+Suit -> Clothing -> Entity
+Hat -> Clothing -> Entity
+Cowboy hat -> Hat -> Clothing -> Entity
+Fedora -> Hat -> Clothing -> Entity
+Sombrero -> Hat -> Clothing -> Entity
+Sun hat -> Hat -> Clothing -> Entity
+Scarf -> Clothing -> Entity
+Skirt -> Clothing -> Entity
+Miniskirt -> Skirt -> Clothing -> Entity
+Jacket -> Clothing -> Entity
+Fashion accessory -> Clothing -> Entity
+Glove -> Fashion accessory -> Clothing -> Entity
+Baseball glove -> Glove -> Fashion accessory -> Clothing -> Entity
+Belt -> Fashion accessory -> Clothing -> Entity
+Sunglasses -> Fashion accessory -> Clothing -> Entity
+Tiara -> Fashion accessory -> Clothing -> Entity
+Necklace -> Fashion accessory -> Clothing -> Entity
+Sock -> Fashion accessory -> Clothing -> Entity
+Earrings -> Fashion accessory -> Clothing -> Entity
+Tie -> Fashion accessory -> Clothing -> Entity
+Goggles -> Fashion accessory -> Clothing -> Entity
+Hat -> Fashion accessory -> Clothing -> Entity
+Cowboy hat -> Hat -> Fashion accessory -> Clothing -> Entity
+Fedora -> Hat -> Fashion accessory -> Clothing -> Entity
+Sombrero -> Hat -> Fashion accessory -> Clothing -> Entity
+Sun hat -> Hat -> Fashion accessory -> Clothing -> Entity
+Scarf -> Fashion accessory -> Clothing -> Entity
+Handbag -> Fashion accessory -> Clothing -> Entity
+Watch -> Fashion accessory -> Clothing -> Entity
+Umbrella -> Fashion accessory -> Clothing -> Entity
+Glasses -> Fashion accessory -> Clothing -> Entity
+Crown -> Fashion accessory -> Clothing -> Entity
+Swim cap -> Clothing -> Entity
+Trousers -> Clothing -> Entity
+Jeans -> Trousers -> Clothing -> Entity
+Footwear -> Clothing -> Entity
+Roller skates -> Footwear -> Clothing -> Entity
+Boot -> Footwear -> Clothing -> Entity
+High heels -> Footwear -> Clothing -> Entity
+Sandal -> Footwear -> Clothing -> Entity
+Sports uniform -> Clothing -> Entity
+Luggage and bags -> Clothing -> Entity
+Backpack -> Luggage and bags -> Clothing -> Entity
+Suitcase -> Luggage and bags -> Clothing -> Entity
+Briefcase -> Luggage and bags -> Clothing -> Entity
+Handbag -> Luggage and bags -> Clothing -> Entity
+Helmet -> Clothing -> Entity
+Bicycle helmet -> Helmet -> Clothing -> Entity
+Football helmet -> Helmet -> Clothing -> Entity
+Animal -> Entity
+Bird -> Animal -> Entity
+Magpie -> Bird -> Animal -> Entity
+Woodpecker -> Bird -> Animal -> Entity
+Blue jay -> Bird -> Animal -> Entity
+Ostrich -> Bird -> Animal -> Entity
+Penguin -> Bird -> Animal -> Entity
+Raven -> Bird -> Animal -> Entity
+Chicken -> Bird -> Animal -> Entity
+Eagle -> Bird -> Animal -> Entity
+Owl -> Bird -> Animal -> Entity
+Duck -> Bird -> Animal -> Entity
+Canary -> Bird -> Animal -> Entity
+Goose -> Bird -> Animal -> Entity
+Swan -> Bird -> Animal -> Entity
+Falcon -> Bird -> Animal -> Entity
+Parrot -> Bird -> Animal -> Entity
+Sparrow -> Bird -> Animal -> Entity
+Turkey -> Bird -> Animal -> Entity
+Invertebrate -> Animal -> Entity
+Tick -> Invertebrate -> Animal -> Entity
+Centipede -> Invertebrate -> Animal -> Entity
+Marine invertebrates -> Invertebrate -> Animal -> Entity
+Starfish -> Marine invertebrates -> Invertebrate -> Animal -> Entity
+Isopod -> Marine invertebrates -> Invertebrate -> Animal -> Entity
+Squid -> Marine invertebrates -> Invertebrate -> Animal -> Entity
+Lobster -> Marine invertebrates -> Invertebrate -> Animal -> Entity
+Jellyfish -> Marine invertebrates -> Invertebrate -> Animal -> Entity
+Shrimp -> Marine invertebrates -> Invertebrate -> Animal -> Entity
+Crab -> Marine invertebrates -> Invertebrate -> Animal -> Entity
+Insect -> Invertebrate -> Animal -> Entity
+Bee -> Insect -> Invertebrate -> Animal -> Entity
+Beetle -> Insect -> Invertebrate -> Animal -> Entity
+Ladybug -> Beetle -> Insect -> Invertebrate -> Animal -> Entity
+Ant -> Insect -> Invertebrate -> Animal -> Entity
+Moths and butterflies -> Insect -> Invertebrate -> Animal -> Entity
+Caterpillar -> Moths and butterflies -> Insect -> Invertebrate -> Animal -> Entity
+Butterfly -> Moths and butterflies -> Insect -> Invertebrate -> Animal -> Entity
+Dragonfly -> Insect -> Invertebrate -> Animal -> Entity
+Scorpion -> Invertebrate -> Animal -> Entity
+Worm -> Invertebrate -> Animal -> Entity
+Spider -> Invertebrate -> Animal -> Entity
+Oyster -> Invertebrate -> Animal -> Entity
+Snail -> Invertebrate -> Animal -> Entity
+Mammal -> Animal -> Entity
+Bat (Animal) -> Mammal -> Animal -> Entity
+Carnivore -> Mammal -> Animal -> Entity
+Bear -> Carnivore -> Mammal -> Animal -> Entity
+Brown bear -> Bear -> Carnivore -> Mammal -> Animal -> Entity
+Panda -> Bear -> Carnivore -> Mammal -> Animal -> Entity
+Polar bear -> Bear -> Carnivore -> Mammal -> Animal -> Entity
+Teddy bear -> Bear -> Carnivore -> Mammal -> Animal -> Entity
+Cat -> Carnivore -> Mammal -> Animal -> Entity
+Fox -> Carnivore -> Mammal -> Animal -> Entity
+Jaguar (Animal) -> Carnivore -> Mammal -> Animal -> Entity
+Lynx -> Carnivore -> Mammal -> Animal -> Entity
+Red panda -> Carnivore -> Mammal -> Animal -> Entity
+Tiger -> Carnivore -> Mammal -> Animal -> Entity
+Lion -> Carnivore -> Mammal -> Animal -> Entity
+Dog -> Carnivore -> Mammal -> Animal -> Entity
+Leopard -> Carnivore -> Mammal -> Animal -> Entity
+Cheetah -> Carnivore -> Mammal -> Animal -> Entity
+Otter -> Carnivore -> Mammal -> Animal -> Entity
+Raccoon -> Carnivore -> Mammal -> Animal -> Entity
+Camel -> Mammal -> Animal -> Entity
+Cattle -> Mammal -> Animal -> Entity
+Giraffe -> Mammal -> Animal -> Entity
+Rhinoceros -> Mammal -> Animal -> Entity
+Goat -> Mammal -> Animal -> Entity
+Horse -> Mammal -> Animal -> Entity
+Hamster -> Mammal -> Animal -> Entity
+Kangaroo -> Mammal -> Animal -> Entity
+Koala -> Mammal -> Animal -> Entity
+Mouse -> Mammal -> Animal -> Entity
+Pig -> Mammal -> Animal -> Entity
+Rabbit -> Mammal -> Animal -> Entity
+Squirrel -> Mammal -> Animal -> Entity
+Sheep -> Mammal -> Animal -> Entity
+Zebra -> Mammal -> Animal -> Entity
+Monkey -> Mammal -> Animal -> Entity
+Hippopotamus -> Mammal -> Animal -> Entity
+Deer -> Mammal -> Animal -> Entity
+Elephant -> Mammal -> Animal -> Entity
+Porcupine -> Mammal -> Animal -> Entity
+Hedgehog -> Mammal -> Animal -> Entity
+Bull -> Mammal -> Animal -> Entity
+Antelope -> Mammal -> Animal -> Entity
+Mule -> Mammal -> Animal -> Entity
+Marine mammal -> Mammal -> Animal -> Entity
+Dolphin -> Marine mammal -> Mammal -> Animal -> Entity
+Whale -> Marine mammal -> Mammal -> Animal -> Entity
+Sea lion -> Marine mammal -> Mammal -> Animal -> Entity
+Harbor seal -> Marine mammal -> Mammal -> Animal -> Entity
+Skunk -> Mammal -> Animal -> Entity
+Alpaca -> Mammal -> Animal -> Entity
+Armadillo -> Mammal -> Animal -> Entity
+Reptile -> Animal -> Entity
+Dinosaur -> Reptile -> Animal -> Entity
+Lizard -> Reptile -> Animal -> Entity
+Snake -> Reptile -> Animal -> Entity
+Turtle -> Reptile -> Animal -> Entity
+Tortoise -> Turtle -> Reptile -> Animal -> Entity
+Sea turtle -> Turtle -> Reptile -> Animal -> Entity
+Crocodile -> Reptile -> Animal -> Entity
+Frog -> Reptile -> Animal -> Entity
+Fish -> Animal -> Entity
+Goldfish -> Fish -> Animal -> Entity
+Shark -> Fish -> Animal -> Entity
+Rays and skates -> Fish -> Animal -> Entity
+Seahorse -> Fish -> Animal -> Entity
+Shellfish -> Animal -> Entity
+Oyster -> Shellfish -> Animal -> Entity
+Lobster -> Shellfish -> Animal -> Entity
+Shrimp -> Shellfish -> Animal -> Entity
+Crab -> Shellfish -> Animal -> Entity
+Cosmetics -> Entity
+Face powder -> Cosmetics -> Entity
+Hair spray -> Cosmetics -> Entity
+Lipstick -> Cosmetics -> Entity
+Perfume -> Cosmetics -> Entity
+Personal care -> Entity
+Toothbrush -> Personal care -> Entity
+Sunglasses -> Personal care -> Entity
+Goggles -> Personal care -> Entity
+Crutch -> Personal care -> Entity
+Cream -> Personal care -> Entity
+Diaper -> Personal care -> Entity
+Glasses -> Personal care -> Entity
+Wheelchair -> Personal care -> Entity
+Medical equipment -> Entity
+Syringe -> Medical equipment -> Entity
+Stretcher -> Medical equipment -> Entity
+Stethoscope -> Medical equipment -> Entity
+Band-aid -> Medical equipment -> Entity
+Musical instrument -> Entity
+Organ (Musical Instrument) -> Musical instrument -> Entity
+Banjo -> Musical instrument -> Entity
+Cello -> Musical instrument -> Entity
+Drum -> Musical instrument -> Entity
+French horn -> Musical instrument -> Entity
+Guitar -> Musical instrument -> Entity
+Harp -> Musical instrument -> Entity
+Harpsichord -> Musical instrument -> Entity
+Harmonica -> Musical instrument -> Entity
+Musical keyboard -> Musical instrument -> Entity
+Oboe -> Musical instrument -> Entity
+Piano -> Musical instrument -> Entity
+Saxophone -> Musical instrument -> Entity
+Trombone -> Musical instrument -> Entity
+Trumpet -> Musical instrument -> Entity
+Violin -> Musical instrument -> Entity
+Chime -> Musical instrument -> Entity
+Flute -> Musical instrument -> Entity
+Accordion -> Musical instrument -> Entity
+Maracas -> Musical instrument -> Entity
+Sports equipment -> Entity
+Paddle -> Sports equipment -> Entity
+Ball -> Sports equipment -> Entity
+Football -> Ball -> Sports equipment -> Entity
+Cricket ball -> Ball -> Sports equipment -> Entity
+Volleyball (Ball) -> Ball -> Sports equipment -> Entity
+Tennis ball -> Ball -> Sports equipment -> Entity
+Rugby ball -> Ball -> Sports equipment -> Entity
+Bicycle -> Sports equipment -> Entity
+Bicycle wheel -> Bicycle -> Sports equipment -> Entity
+Surfboard -> Sports equipment -> Entity
+Bow and arrow -> Sports equipment -> Entity
+Hiking equipment -> Sports equipment -> Entity
+Roller skates -> Sports equipment -> Entity
+Flying disc -> Sports equipment -> Entity
+Baseball bat -> Sports equipment -> Entity
+Baseball glove -> Sports equipment -> Entity
+Punching bag -> Sports equipment -> Entity
+Golf ball -> Sports equipment -> Entity
+Personal flotation device -> Sports equipment -> Entity
+Scoreboard -> Sports equipment -> Entity
+Snowboard -> Sports equipment -> Entity
+Skateboard -> Sports equipment -> Entity
+Ski -> Sports equipment -> Entity
+Bowling equipment -> Sports equipment -> Entity
+Dumbbell -> Sports equipment -> Entity
+Stationary bicycle -> Sports equipment -> Entity
+Treadmill -> Sports equipment -> Entity
+Training bench -> Sports equipment -> Entity
+Indoor rower -> Sports equipment -> Entity
+Horizontal bar -> Sports equipment -> Entity
+Parachute -> Sports equipment -> Entity
+Racket -> Sports equipment -> Entity
+Tennis racket -> Racket -> Sports equipment -> Entity
+Table tennis racket -> Racket -> Sports equipment -> Entity
+Balance beam -> Sports equipment -> Entity
+Helmet -> Sports equipment -> Entity
+Bicycle helmet -> Helmet -> Sports equipment -> Entity
+Football helmet -> Helmet -> Sports equipment -> Entity
+Billiard table -> Sports equipment -> Entity
+Tool -> Entity
+Container -> Tool -> Entity
+Tin can -> Container -> Tool -> Entity
+Barrel -> Container -> Tool -> Entity
+Bottle -> Container -> Tool -> Entity
+Picnic basket -> Container -> Tool -> Entity
+Jug -> Container -> Tool -> Entity
+Waste container -> Container -> Tool -> Entity
+Beaker -> Container -> Tool -> Entity
+Flowerpot -> Container -> Tool -> Entity
+Ladder -> Tool -> Entity
+Toothbrush -> Tool -> Entity
+Screwdriver -> Tool -> Entity
+Drill (Tool) -> Tool -> Entity
+Chainsaw -> Tool -> Entity
+Wrench -> Tool -> Entity
+Flashlight -> Tool -> Entity
+Scissors -> Tool -> Entity
+Ratchet (Device) -> Tool -> Entity
+Kitchen utensil -> Tool -> Entity
+Chopsticks -> Kitchen utensil -> Tool -> Entity
+Ladle -> Kitchen utensil -> Tool -> Entity
+Spatula -> Kitchen utensil -> Tool -> Entity
+Can opener -> Kitchen utensil -> Tool -> Entity
+Cutting board -> Kitchen utensil -> Tool -> Entity
+Whisk -> Kitchen utensil -> Tool -> Entity
+Drinking straw -> Kitchen utensil -> Tool -> Entity
+Knife -> Kitchen utensil -> Tool -> Entity
+Bottle opener -> Kitchen utensil -> Tool -> Entity
+Measuring cup -> Kitchen utensil -> Tool -> Entity
+Pizza cutter -> Kitchen utensil -> Tool -> Entity
+Spoon -> Kitchen utensil -> Tool -> Entity
+Fork -> Kitchen utensil -> Tool -> Entity
+Hammer -> Tool -> Entity
+Scale -> Tool -> Entity
+Snowplow -> Tool -> Entity
+Nail (Construction) -> Tool -> Entity
+Tripod -> Tool -> Entity
+Torch -> Tool -> Entity
+Chisel -> Tool -> Entity
+Axe -> Tool -> Entity
+Camera -> Tool -> Entity
+Grinder -> Tool -> Entity
+Ruler -> Tool -> Entity
+Binoculars -> Tool -> Entity
+Weapon -> Entity
+Bow and arrow -> Weapon -> Entity
+Cannon -> Weapon -> Entity
+Dagger -> Weapon -> Entity
+Knife -> Weapon -> Entity
+Rifle -> Weapon -> Entity
+Shotgun -> Weapon -> Entity
+Tank -> Weapon -> Entity
+Axe -> Weapon -> Entity
+Handgun -> Weapon -> Entity
+Sword -> Weapon -> Entity
+Missile -> Weapon -> Entity
+Bomb -> Weapon -> Entity
+Cassette deck -> Entity
+Headphones -> Entity
+Laptop -> Entity
+Computer keyboard -> Entity
+Printer -> Entity
+Computer mouse -> Entity
+Computer monitor -> Entity
+Power plugs and sockets -> Entity
+Light switch -> Entity
+Television -> Entity
+Telephone -> Entity
+Mobile phone -> Telephone -> Entity
+Corded phone -> Telephone -> Entity
+Tablet computer -> Entity
+Microphone -> Entity
+Ipod -> Entity
+Remote control -> Entity
+Drink -> Entity
+Beer -> Drink -> Entity
+Cocktail -> Drink -> Entity
+Coffee -> Drink -> Entity
+Juice -> Drink -> Entity
+Tea -> Drink -> Entity
+Wine -> Drink -> Entity
+Bicycle wheel -> Entity
+Door handle -> Entity
+Door -> Entity
+Door handle -> Door -> Entity
+Window -> Entity
+Stairs -> Entity
+Porch -> Entity
+Human eye -> Entity
+Skull -> Entity
+Human head -> Entity
+Human face -> Entity
+Human mouth -> Entity
+Human ear -> Entity
+Human nose -> Entity
+Human hair -> Entity
+Human hand -> Entity
+Human foot -> Entity
+Human arm -> Entity
+Human leg -> Entity
+Human beard -> Entity
+Human body -> Entity
+Human eye -> Human body -> Entity
+Skull -> Human body -> Entity
+Human head -> Human body -> Entity
+Human face -> Human body -> Entity
+Human mouth -> Human body -> Entity
+Human ear -> Human body -> Entity
+Human nose -> Human body -> Entity
+Human hair -> Human body -> Entity
+Human hand -> Human body -> Entity
+Human foot -> Human body -> Entity
+Human arm -> Human body -> Entity
+Human leg -> Human body -> Entity
+Human beard -> Human body -> Entity
+Auto part -> Entity
+Vehicle registration plate -> Auto part -> Entity
+Wheel -> Auto part -> Entity
+Seat belt -> Auto part -> Entity
+Tire -> Auto part -> Entity
+Coconut -> Entity

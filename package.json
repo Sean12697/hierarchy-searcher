@@ -1,0 +1,26 @@
+{
+  "name": "hierarchy-searcher",
+  "version": "1.0.0",
+  "description": "A simple npm script to search through Googles 600 box hierarchy. ",
+  "main": "search.js",
+  "scripts": {
+    "test": "node tester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean12697/hierarchy-searcher.git"
+  },
+  "keywords": [
+    "hierarchy",
+    "search"
+  ],
+  "author": "Sean O'Mahoney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean12697/hierarchy-searcher/issues"
+  },
+  "homepage": "https://github.com/Sean12697/hierarchy-searcher#readme",
+  "dependencies": {
+    "beautify": "0.0.8"
+  }
+}
