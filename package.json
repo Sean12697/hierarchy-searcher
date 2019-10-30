@@ -1,6 +1,6 @@
 {
   "name": "hierarchy-searcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple npm script to search through Googles 600 box hierarchy. ",
   "main": "search.js",
   "scripts": {
